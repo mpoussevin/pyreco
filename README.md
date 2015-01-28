@@ -19,7 +19,7 @@ They share a similar behavior:
   * output: the path to the output file (one file for training, validation and test) where predictions are written
 
 ## Collaborative filtering model
-* matfact.py: uses adaptive biases and collaborative filtering. It uses a stochastic gradient descent to solve the rating prediction problem as in the work of Yehuda Koren, Robert Bell and Chris Volinsky in 2009 (http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.147.8295). Takes multiple parameters:Takes two parameters:
+* matfact.py: uses adaptive biases and collaborative filtering. It uses a stochastic gradient descent to solve the rating prediction problem as in the work of Yehuda Koren, Robert Bell and Chris Volinsky in 2009 (http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.147.8295). Takes multiple parameters:
   * input: the path to the input file (one file for training, validation and test)
   * output: the path to the output file (one file for training, validation and test) where predictions are written
   * components: number of components to use for the factorisation (dimension of the latent space)
